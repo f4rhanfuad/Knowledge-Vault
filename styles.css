@@ -285,6 +285,18 @@ footer ul{
     left: -40px;
 }
 
+footer button{
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+footer button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
 #footerCopyright{
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     width: 1360px;
