@@ -83,7 +83,7 @@ nav ul li a{
 }
 
 #frontpageButtons{
-    max-width: 475px;
+    max-width: 500px;
     display: flex;
     justify-content: center;
     gap: 16px;
