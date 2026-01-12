@@ -41,7 +41,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 16px 120px;
-    width: 1600px;
+    width: 1400px;
     height: 92px;
     background-color: #FFFFFF;
 }
@@ -109,7 +109,7 @@ nav ul li a{
 }
 
 .frontpage{
-    width: 1360px;
+    width: 1200px;
     height: 379px;
     align-items: center;
     text-align: center;
@@ -125,7 +125,7 @@ nav ul li a{
 }
 
 #problemHeader{
-    width: 1360px;
+    width: 1200px;
     height: 152px;
     display: flex;
     flex-direction: column;
@@ -222,13 +222,13 @@ nav ul li a{
 }
 
 #access{
-    width: 1600px;
+    width: 1400px;
     height: 506px;
     overflow: hidden;
 }
 
 #accessText{
-    width: 1360px;
+    width: 1200px;
     height: 384px;
     display: flex;
     flex-direction: column;
@@ -303,6 +303,11 @@ footer ul{
     left: -40px;
 }
 
+#tick img{
+    position: relative;
+    top: 4px;
+}
+
 footer button{
     background: none;
     border: none;
@@ -329,4 +334,9 @@ footer button:hover{
     text-align: center;
     color: rgba(250, 250, 250, 1);
     padding-top: 50px;
+}
+
+#solution{
+    position: relative;
+    left: 94px;
 }
